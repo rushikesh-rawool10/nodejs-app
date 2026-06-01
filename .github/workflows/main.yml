@@ -18,5 +18,5 @@ jobs:
         with:
           aws-region: ap-south-1
           role-to-assume: ${{ secrets.AWS_IAM_ROLE }}
-      - name: Test AWS Credentials DEMO
+      - name: Test AWS Credentials DEMO-220
         run: aws sts get-caller-identity
